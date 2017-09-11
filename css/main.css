@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	background-color: #a6d2db;
+	padding: 15px 0px;
+}
+
+.brand {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #374a4f;
+}
+
+.nav-button {
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #374a4f;
+
+}
+
+header {
+	background-color: #a6d2db;
+	height: 400px;
+	position: relative;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+header img {
+	width: 50%;
+	position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(0,-50%);
