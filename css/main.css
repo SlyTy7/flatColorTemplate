@@ -20,7 +20,7 @@ h1 {
 
 
 /* navbar */
-nav {
+nav .navbar{
 	background-color: #a6d2db;
 	padding: 15px 0px;
 }
@@ -89,10 +89,39 @@ header img {
 /* recent work */
 .recent-work {
 	background-color: #9ad3a6;
-	height: 250px;
 	text-align: center;
+	padding: 0;
 }
 
 .recent-work h1 {
 	padding-top: 40px;
+}
+
+.work-nav {
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+
+.work-nav a{
+	color: white;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	border: solid 2px;
+	border-radius: 7px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.work-nav a:hover{
+	color: #9ad3a6;
+	background-color: white;
+	text-decoration: none;
+}
+
+.work-items {
+	padding: 25px 20%;
+}
+
+.work-item {
+	margin-bottom: 25px;
 }
